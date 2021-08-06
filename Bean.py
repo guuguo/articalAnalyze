@@ -19,14 +19,15 @@ class Article(object):
         self.href = ''
         self.authorID = ''
         self.authorName = ''
+        self.authorAvatar = ''
         # 作者链接
         self.authorHref = ''
         # 类型
-        self.types = ''
+        self.tags = ''
         # 文章内容
         self.content = ''
         # 阅读数
-        self.read = ''
+        self.view = ''
         # 评价数
         self.comment = ''
         # 收藏数
